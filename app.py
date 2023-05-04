@@ -9,4 +9,4 @@ def hello_wordl():
 def hello_inmundo():
     name = request.args.get("username")
     lastname = request.args.get ("lastname")
-return render_template ("reels.html", name=name, lastname=lastname)
+    return render_template ("reels.html", name=name, lastname=lastname)
